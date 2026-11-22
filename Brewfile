@@ -1,0 +1,36 @@
+# CLI esenciales
+brew "git"
+brew "gh"
+brew "jq"
+brew "tree"
+brew "btop"
+brew "tlrc"
+brew "fzf"
+brew "ripgrep"
+brew "bat"
+brew "eza"
+brew "zoxide"
+brew "starship"
+brew "mise"
+brew "uv"
+
+# Cloud
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
+brew "awscli"
+brew "kubectl"
+brew "k9s"
+
+# IA local
+brew "ollama"
+
+# Apps
+cask "ghostty"
+cask "orbstack"
+cask "visual-studio-code"
+cask "raycast"
+cask "rectangle"
+cask "tableplus"
+cask "bruno"
+cask "stats"
+cask "font-jetbrains-mono-nerd-font"
