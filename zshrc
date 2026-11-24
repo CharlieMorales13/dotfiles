@@ -18,3 +18,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Secretos (no estan en el repo)
 [ -f ~/.secrets ] && source ~/.secrets
+
+# Android SDK
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
