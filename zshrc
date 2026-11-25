@@ -22,3 +22,9 @@ export PATH="$HOME/.local/bin:$PATH"
 # Android SDK
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+
+# Dart global tools (flutterfire)
+export PATH="$PATH:$HOME/.pub-cache/bin"
+
+# Allow comments in interactive commands
+setopt interactivecomments
